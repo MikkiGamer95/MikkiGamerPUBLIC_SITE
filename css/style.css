@@ -1,0 +1,71 @@
+body{
+    background: url("https://phonoteka.org/uploads/posts/2021-05/1620701292_17-phonoteka_org-p-kamennii-fon-mainkraft-18.jpg");
+    background-size: contain;
+    height: 1500px;
+}
+
+
+.Lol{
+    color: aqua;
+}
+
+.text{ 
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 0, 0.2);
+    color: white;  
+}
+
+/* Какие стили установятся на блок при наведении */
+.text:hover{
+    background: rgba(255, 0, 0, 0.35);
+    color: violet;
+    cursor: pointer;
+}
+/* Какие стили установятся на блок при нажатии */
+.text:active{
+    background: rgba(0, 0, 0, 0.212);
+    color: white;
+}
+
+
+.lul{
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 0, 0.2);
+    color: white;
+}
+
+.lul:hover{
+    background: rgba(0, 47, 255, 0.651);;
+    /* color: teal; */
+    color: rgba(23, 255, 205, 0.993);
+    cursor: pointer;
+}
+.lul:active{
+    background: rgba(255, 0, 0, 0.212);
+    color: rgb(255, 153, 0);
+}
+
+.task{
+    background: rgba(128, 0, 128, 0.507);
+    color: rgb(197, 9, 9);
+    margin: 10px 0px 0px 0px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px 70px 20px 70px;
+}
+
+.task:hover{
+    background: rgba(252, 83, 21, 0.459);
+    color: slateblue;
+    cursor: pointer;
+}
+
+.task:active{
+    /* background: rgba(255, 38, 0, 0.541); */
+    background-image: linear-gradient(0deg, #ff0000 14%, #ff8400 26%, #fffc00 36%, #70ff00 44%, #3bc9db 54%, #0500ff 66%, #d400ff 87%);
+    color: yellowgreen;
+}
